@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="ParticlesMaterial" id=1]
+resource_local_to_scene = true
+emission_shape = 2
+emission_box_extents = Vector3( 50, 50, 1 )
+flag_disable_z = true
+gravity = Vector3( 0, 98, 0 )
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+scale = 5.0
+color = Color( 0.0235294, 0.941176, 0.321569, 1 )
+
+[node name="Particles2D" type="Particles2D"]
+amount = 100
+process_material = SubResource( 1 )
