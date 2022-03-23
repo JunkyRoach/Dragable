@@ -35,5 +35,5 @@ margin_top = -66.0
 margin_right = 61.0
 margin_bottom = 65.0
 
-[connection signal="START_DRAG" from="Draggable" to="." method="_on_DraggableComponent_START_DRAG"]
-[connection signal="STOP_DRAG" from="Draggable" to="." method="_on_DraggableComponent_STOP_DRAG"]
+[connection signal="start_drag" from="Draggable" to="." method="_on_Draggable_start_drag"]
+[connection signal="stop_drag" from="Draggable" to="." method="_on_Draggable_stop_drag"]

@@ -6,12 +6,13 @@ func _ready():
 
 
 
-func _on_DraggableComponent_STOP_DRAG():
-	$Particles2D.emitting = false
-	#$DraggableComponent.back_to_started_postion()
-	pass 
 
 
-func _on_DraggableComponent_START_DRAG():
+func _on_Draggable_start_drag():
 	$Particles2D.emitting = true
-	pass 
+	pass # Replace with function body.
+
+
+func _on_Draggable_stop_drag():
+	$Particles2D.emitting = false
+	pass # Replace with function body.
